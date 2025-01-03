@@ -28,6 +28,7 @@ PACKAGES="$PACKAGES ddns-scripts-cloudflare"
 PACKAGES="$PACKAGES luci-i18n-zerotier-zh-cn"
 PACKAGES="$PACKAGES luci-app-vlmcsd"
 PACKAGES="$PACKAGES luci-i18n-attendedsysupgrade-zh-cn"
+PACKAGES="$PACKAGES luci-i18n-wol-zh-cn"
 
 # 构建镜像
 echo "$(date '+%Y-%m-%d %H:%M:%S') - Building image with the following packages:"
