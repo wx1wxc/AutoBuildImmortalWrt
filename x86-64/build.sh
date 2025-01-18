@@ -5,7 +5,8 @@ echo "编译固件大小为: $PROFILE MB"
 # 输出调试信息
 echo "$(date '+%Y-%m-%d %H:%M:%S') - 开始编译..."
 
-
+# 添加destan19/OpenAppFilter
+git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
 
 # 定义所需安装的包列表
 PACKAGES="$PACKAGES curl"
