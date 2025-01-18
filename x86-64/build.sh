@@ -29,7 +29,7 @@ PACKAGES="$PACKAGES luci-app-vlmcsd"
 PACKAGES="$PACKAGES luci-i18n-attendedsysupgrade-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-ddns-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-cifs-mount-zh-cn"
-PACKAGES="$PACKAGES luci-app-mihomo"
+# PACKAGES="$PACKAGES luci-app-mihomo"
 PACKAGES="$PACKAGES luci-i18n-wol-zh-cn"
 # PACKAGES="$PACKAGES luci-app-oaf"
 
