@@ -54,7 +54,7 @@ PACKAGES="$PACKAGES luci-i18n-wol-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-ddns-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-cifs-mount-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-wol-zh-cn"
-PACKAGES="$PACKAGES luci-app-mihomo"
+# PACKAGES="$PACKAGES luci-app-mihomo"
 
 # 判断是否需要编译 Docker 插件
 if [ "$INCLUDE_DOCKER" = "yes" ]; then
