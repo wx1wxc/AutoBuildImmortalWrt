@@ -44,17 +44,17 @@ PACKAGES="$PACKAGES script-utils"
 PACKAGES="$PACKAGES luci-i18n-samba4-zh-cn"
 
 # 自定义部分
-# PACKAGES="$PACKAGES luci-i18n-dockerman-zh-cn"
-# PACKAGES="$PACKAGES luci-i18n-udpxy-zh-cn"
-# PACKAGES="$PACKAGES ddns-scripts-cloudflare"
-# PACKAGES="$PACKAGES luci-i18n-zerotier-zh-cn"
-# PACKAGES="$PACKAGES luci-app-vlmcsd"
-# PACKAGES="$PACKAGES luci-i18n-attendedsysupgrade-zh-cn"
-# PACKAGES="$PACKAGES luci-i18n-wol-zh-cn"
-# PACKAGES="$PACKAGES luci-i18n-ddns-zh-cn"
-# PACKAGES="$PACKAGES luci-i18n-cifs-mount-zh-cn"
-# PACKAGES="$PACKAGES luci-i18n-wol-zh-cn"
-#PACKAGES="$PACKAGES luci-app-mihomo"
+PACKAGES="$PACKAGES luci-i18n-dockerman-zh-cn"
+PACKAGES="$PACKAGES luci-i18n-udpxy-zh-cn"
+PACKAGES="$PACKAGES ddns-scripts-cloudflare"
+PACKAGES="$PACKAGES luci-i18n-zerotier-zh-cn"
+PACKAGES="$PACKAGES luci-app-vlmcsd"
+PACKAGES="$PACKAGES luci-i18n-attendedsysupgrade-zh-cn"
+PACKAGES="$PACKAGES luci-i18n-wol-zh-cn"
+PACKAGES="$PACKAGES luci-i18n-ddns-zh-cn"
+PACKAGES="$PACKAGES luci-i18n-cifs-mount-zh-cn"
+PACKAGES="$PACKAGES luci-i18n-wol-zh-cn"
+PACKAGES="$PACKAGES luci-app-mihomo"
 
 # 判断是否需要编译 Docker 插件
 if [ "$INCLUDE_DOCKER" = "yes" ]; then
