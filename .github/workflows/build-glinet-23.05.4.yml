@@ -1,4 +1,4 @@
-name: build-gl-inet-23.05.4 ImmpotalWrt
+name: build-gl-inet-23.05.6 ImmpotalWrt
 
 on:
   workflow_dispatch:
@@ -35,7 +35,7 @@ jobs:
         run: |
           chmod +x ${{ github.workspace }}/mediatek-filogic/build.sh
 
-      - name: Build Gl-iNet ImmpotalWrt 23.05.4
+      - name: Build Gl-iNet ImmpotalWrt 23.05.6
         run: |
           profiles="${{ github.event.inputs.profile }}"
           include_docker="${{ github.event.inputs.include_docker }}"
